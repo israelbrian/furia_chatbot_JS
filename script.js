@@ -1,6 +1,23 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const sendButton = document.getElementById("sendButton");
+  const userInput = document.getElementById("userInput");
+
+  sendButton.addEventListener("click", sendMessage);
+
+  // Também pode enviar pressionando Enter
+  userInput.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      sendMessage();
+    }
+  });
+});
+
+
+
 function sendMessage() {
     const input = document.getElementById("userInput");
     const message = input.value.trim();
+
     if (!message) return;
   
     addMessage("Você", message);
@@ -15,8 +32,9 @@ function sendMessage() {
   function addMessage(sender, text) {
     const chat = document.getElementById("chat");
     const msg = document.createElement("div");
+
     msg.innerHTML = `<strong>${sender}:</strong> ${text}`;
-    msg.classList.add("mb-3");
+    msg.classList.add(sender === "Você" ? "user-message" : "bot-message");
     chat.appendChild(msg);
     chat.scrollTop = chat.scrollHeight;
   }

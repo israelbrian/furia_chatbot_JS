@@ -29,28 +29,29 @@ body {
     margin-top: 10px;
   }
 
-  .noticia {
-    width: 600px;
-    color: black;
-  }
-  .img-noticia {
-    width: 600px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
-
   .texto-noticia {
     text-align: justify;
   }
 
-  /* h1 {
-    float: left;
-  } */
-  /* h2 {
-    clear: both;
-    display: block;
-  } */
+  .chat-container {
+    background-color: #1e1e1e;
+    width: 400px;
+    padding: 20px;
+    border-radius: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+    
+  }
+
+  .chat-box {
+    /* display: hidden; */
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* chat */
   
   /* .chat-container {
     background: #1e1e1e;
