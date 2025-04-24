@@ -25,7 +25,7 @@ function sendMessage() {
   
     setTimeout(() => {
       const botReply = generateReply(message);
-      addMessage("FURIA Bot", botReply);
+      addMessage("FURIA", botReply);
     }, 500);
   }
   
