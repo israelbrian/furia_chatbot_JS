@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #121212;
+    background: #000000;
     color: white;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     padding: 20px;
     width: 400px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #0f0;
+    box-shadow: 0 0 10px #fff;
   }
   
   .chat-box {
@@ -38,7 +38,7 @@ body {
   
   button {
     padding: 10px;
-    background: #0f0;
+    background: #fff;
     border: none;
     color: black;
     font-weight: bold;
