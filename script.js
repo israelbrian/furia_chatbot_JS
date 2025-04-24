@@ -1,9 +1,18 @@
+
 document.addEventListener("DOMContentLoaded", function () {
   const sendButton = document.getElementById("sendButton");
   const userInput = document.getElementById("userInput");
+  const openChatButton = document.getElementById("openChatButton");
+  const hiddenChat = document.getElementById("divChat"); 
+  const showChat = document.getElementById("chatBox");
+
+  openChatButton.addEventListener("click", function () {
+    hiddenChat.innerHTML = ''
+    showChat.classList.add("show");
+  });
 
   sendButton.addEventListener("click", sendMessage);
-
+  
   // Também pode enviar pressionando Enter
   userInput.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
@@ -11,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-
 
 
 function sendMessage() {

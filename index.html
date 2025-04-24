@@ -41,12 +41,14 @@
     </header>
 
     <!-- Inicio container principal -->
-    <div class="principal container d-flex justify-content-between align-items-start">
+    <div
+      class="principal container d-flex justify-content-between align-items-start"
+    >
       <div class="row">
         <div class="col-md-6 text-black">
           <!-- Inicio NOTICIAS-->
           <div class="noticia">
-            <h3 class="lead fs-2">Ultimo resultado em campeonato</h3>
+            <h3 class="lead fs-2 pb-3">Ultimo resultado em campeonato</h3>
             <img
               src="src/img/furia-noticia.jpg"
               alt="foto-ilustrativa"
@@ -55,48 +57,64 @@
             <h4>Sobre o jogo</h4>
             <p class="texto-noticia">
               A FURIA está eliminada da PGL Bucharest 2025. Na manhã desta
-              quarta-feira (9), a equipe acabou sendo derrotada pela The MongolZ por
-              dois mapas a zero e está fora da competição. Os mongóis contaram com
-              ótima partida de Ayush "mzinho" Batbold, que fez o impossível na Nuke
-              para trazer a partida de volta. O próximo compromisso da FURIA é a PGL
-              Astana 2025, que será realizada entre os dias 10 e 18 de maio, no
-              Cazaquistão.
+              quarta-feira (9), a equipe acabou sendo derrotada pela The MongolZ
+              por dois mapas a zero e está fora da competição. Os mongóis
+              contaram com ótima partida de Ayush "mzinho" Batbold, que fez o
+              impossível na Nuke para trazer a partida de volta. O próximo
+              compromisso da FURIA é a PGL Astana 2025, que será realizada entre
+              os dias 10 e 18 de maio, no Cazaquistão.
             </p>
             <h4>Mirage tensa</h4>
             <p class="texto-noticia">
               A FURIA começou muito bem, fazendo belas defesas e logo abriu três
-              pontos de vantagem. A The MongolZ pontuou pela primeira vez em ótimo
-              split e quase chegou ao empate, mas a primeira metade terminou em 7-5
-              a favor dos brasileiros. Os mongóis empataram após vencer o pistol,
-              mas a pantera soube responder rápido com execução rumo ao bomb A.
-              Depois disso, só deu The MongolZ, que se defendeu muito bem e fechou o
-              primeiro mapa em 9-13.
+              pontos de vantagem. A The MongolZ pontuou pela primeira vez em
+              ótimo split e quase chegou ao empate, mas a primeira metade
+              terminou em 7-5 a favor dos brasileiros. Os mongóis empataram após
+              vencer o pistol, mas a pantera soube responder rápido com execução
+              rumo ao bomb A. Depois disso, só deu The MongolZ, que se defendeu
+              muito bem e fechou o primeiro mapa em 9-13.
             </p>
-            <a href="https://draft5.gg/partida/36342-FURIA-vs-The-MongolZ-PGL-Bucharest-2025" 
-            target="_blank"
-            class="link text-decoration-none btn">Leia mais...</a>
+            <a
+              href="https://draft5.gg/partida/36342-FURIA-vs-The-MongolZ-PGL-Bucharest-2025"
+              target="_blank"
+              class="link text-decoration-none btn"
+              >Leia mais...</a
+            >
           </div>
           <!-- FIM NOTICIAS-->
         </div>
 
         <div class="col-md-1"></div>
-        <div class="col-md-4 ">
+        <div class="col-md-5">
           <!-- INICIO CHATBOT-->
-          <h3 class="lead fs-2 text-center text-black ms-4">Fale com a FURIA</h3>
-          
-          <div class="chat-container">
+          <h3 class="lead fs-2 text-center text-black">
+            Fale com a FURIA
+          </h3>
 
+          <div id="divChat"
+          class="mt-4 d-flex justify-content-center align-items-center flex-column">
+            <h4 class="text-black p-3 fs-5 text-center">
+              Saiba mais sobre o seu time preferido!
+            </h4>
+            <button id="openChatButton" 
+            class="btn-bot btn">
+              Clique aqui
+            </button>
+          </div>
+
+          <div id="chatBox" class="chat-container">
             <div id="chat" class="chat-box"></div>
 
-              <div class="input-area">
-                <input
-                  type="text" id="userInput"
-                  placeholder="Fale com a FURIA..."
-                />
-                <button id="sendButton">
-                  <i class="fa-solid fa-paper-plane"></i>
-                </button>
-              </div>
+            <div class="input-area">
+              <input
+                type="text"
+                id="userInput"
+                placeholder="Fale com a FURIA..."
+              />
+              <button id="sendButton">
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
           </div>
           <!-- FIM CHATBOT-->
         </div>
@@ -110,38 +128,26 @@
         <li>
           <a href="">
             <!-- <img src="src/icon/icon-3.png" style="width: 20px;"> -->
-             facebook
+            facebook
           </a>
         </li>
         <li>
-          <a href="">
-            insta
-          </a>
+          <a href=""> insta </a>
         </li>
         <li>
-          <a href="">
-            twitter
-          </a>
+          <a href=""> twitter </a>
         </li>
         <li>
-          <a href="">
-            youtube
-          </a>
+          <a href=""> youtube </a>
         </li>
         <li>
-          <a href="">
-            tiktok
-          </a>
+          <a href=""> tiktok </a>
         </li>
         <li>
-          <a href="">
-            threads
-          </a>
+          <a href=""> threads </a>
         </li>
         <li>
-          <a href="">
-            bluesky
-          </a>
+          <a href=""> bluesky </a>
         </li>
       </ul>
     </footer>
