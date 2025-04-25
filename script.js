@@ -57,7 +57,7 @@ function sendMessage() {
     } else if (msg.includes("cs") || msg.includes("counter")) {
       return "CS é nossa paixão! Quer saber a line-up atual?";
     } else if (msg.includes("line") || msg.includes("time")) {
-      return "Atualmente temos: MatadorDeAnão, Dhawsa, Lepstospiroca...";
+      return "Atualmente nossa line-up titular é composta por: Fallen, KSCERATO, yuurih, MOLODOY, YEKINDAR.";
     } else {
       return "Hmm... não entendi. Tente perguntar sobre os jogos ou o time!";
     }
