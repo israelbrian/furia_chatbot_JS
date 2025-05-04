@@ -71,6 +71,6 @@ function generateReply(message) {
   } else if (msg.includes("org") || msg.includes("organização") || msg.includes("história")) {
     return "A FURIA foi eleita a melhor organização de eSports do Brasil por dois anos consecutivos (2020 e 2021) pelo Prêmio eSports Brasil. Além disso, a organização foi reconhecida como a quarta maior do mundo em 2022 por um levantamento do portal norte-americano Nerd Street. Em 2023, foi eleita a melhor organização de CS:GO do ano pelo Júri da Brasil Storm CS."
   } else {
-    return "Hmm... não entendi. Tente perguntar sobre os jogos ou o time!";
+    return "Hmm... não entendi. Tente perguntar sobre os jogos ou o time! #GOFURIA";
   }
 }
