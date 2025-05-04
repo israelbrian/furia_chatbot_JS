@@ -5,11 +5,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const hiddenChat = document.getElementById("divChat");
   const showChat = document.getElementById("chatBox");
 
+  // Ao clicar no botão mostra o chat e oculta a div divChat
   openChatButton.addEventListener("click", function () {
     hiddenChat.innerHTML = "";
     showChat.classList.add("show");
   });
 
+  // Envia a mensagem quando o botão é clicado
   sendButton.addEventListener("click", sendMessage);
 
   // Também pode enviar pressionando Enter
@@ -49,7 +51,7 @@ function generateReply(message) {
   const msg = message.toLowerCase();
 
   if (msg.includes("oi") || msg.includes("oie") || msg.includes("ola")) {
-    return "Fala, fã da FURIA! Pronto para vibrar com a gente?";
+    return "Fala, fã da FURIA! Sobre o que você quer saber?";
   } else if (msg.includes("jogo") || msg.includes("partida")) {
     return "Nosso próximo jogo é dia 25! Prepara o coração!";
   } else if (
