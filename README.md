@@ -1,6 +1,6 @@
-# Landing page FURIA com chatbot feito em JS com respostas pré-definidas para palavras-chave pré-determinadas.
+# PROJETO CHATBOT FURIA (JAVASCRIPT) com respostas pré-definidas para palavras-chave.
+## VERSÃO ATUAL: 1.0
 
-## PROJETO CHAT FURIA (JAVASCRIPT)
 VERSÕES:
 <ul>
       <li>1.0 SITE FURIA C/NOTICIAS CHAT BOT (HTML,CSS, BOOTSTRAP, JS)</li>
