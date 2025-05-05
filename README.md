@@ -8,7 +8,9 @@ VERSÕES:
       <li>1.2 INTEGRAÇÃO COM UM BANCO DE DADOS</li>
 </ul>  
 
-## Descrição do projeto:
+<hr> 
+
+<h2>Descrição do projeto: </h2>
 
 <p> 
 Webpage para o fã do time competitivo de Counter Strike da FURIA com interface estilizada usando como base o site da FURIA "draft5".  
