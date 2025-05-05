@@ -18,9 +18,10 @@ skin e etc". Assim respondendo ao fã o que ele quer saber.
 - A lógica do chat-bot foi feita totalmente em Javascript nativo. 
 - Tecnologias usadas <strong>(HTML - CSS - BOOTSTRAP 5 – JAVASCRIPT – POSTMAN – GIT - GITHUB )</strong>
 
-- <a href="https://furia-chatbot-js.vercel.app/">Chatbot Furia Js</a>
-- <a href="https://chatbot-flask-frontend.vercel.app/">Chatbot Furia Frontend (Versão de teste)</a>
-- <a href="https://github.com/israelbrian/chatbot_flask">Chatbot Furia Backend(API)</a>
+### LINKS IMPORTANTES:
+- Webpage fã Furia completa (logica em JS) <a href="https://furia-chatbot-js.vercel.app/">Chatbot Furia Js</a>
+- Chatbot Furia (teste front)<a href="https://chatbot-flask-frontend.vercel.app/">Chatbot Furia Frontend</a>
+- Chatbot Furia python (back/API)<a href="https://github.com/israelbrian/chatbot_flask">Chatbot Furia Backend(API)</a>
 
 
 
