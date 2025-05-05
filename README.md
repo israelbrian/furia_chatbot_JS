@@ -1,7 +1,9 @@
 
 ## PROJETO CHATBOT FURIA (JAVASCRIPT) com respostas pré-definidas para palavras-chave.
 ### VERSÃO ATUAL: 1.0
-<hr>      
+
+<hr>  
+
 ### VERSÕES: 
 - 1.0 SITE FURIA C/NOTICIAS CHAT BOT (HTML,CSS, BOOTSTRAP, JS)
 - 1.1 ATT PARA DADOS DO CHATBOT EM uma API(FLASK/PYTHON)
