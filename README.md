@@ -1,15 +1,18 @@
-# PROJETO CHATBOT FURIA (JAVASCRIPT) com respostas pré-definidas para palavras-chave.
-## VERSÃO ATUAL: 1.0
+<div>
+      # PROJETO CHATBOT FURIA (JAVASCRIPT) com respostas pré-definidas para palavras-chave.
+      ## VERSÃO ATUAL: 1.0
+      
+      <h2> VERSÕES: </h2>
+      <ul>
+            <li>1.0 SITE FURIA C/NOTICIAS CHAT BOT (HTML,CSS, BOOTSTRAP, JS)</li>
+            <li>1.1 ATT PARA DADOS DO CHATBOT EM uma API(FLASK/PYTHON) </li>
+            <li>1.2 INTEGRAÇÃO COM UM BANCO DE DADOS</li>
+      </ul>  
+      
+      <hr> 
+</div>
 
-VERSÕES:
-<ul>
-      <li>1.0 SITE FURIA C/NOTICIAS CHAT BOT (HTML,CSS, BOOTSTRAP, JS)</li>
-      <li>1.1 ATT PARA DADOS DO CHATBOT EM uma API(FLASK/PYTHON) </li>
-      <li>1.2 INTEGRAÇÃO COM UM BANCO DE DADOS</li>
-</ul>  
-
-<hr> 
-
+<div>
 <h2>Descrição do projeto: </h2>
 
 <p> 
@@ -21,5 +24,6 @@ skin e etc". Assim respondendo ao fã o que ele quer saber.
 - Tecnologias usadas <strong>(HTML - CSS - BOOTSTRAP 5 – JAVASCRIPT – POSTMAN – GIT - GITHUB )</strong>
 </p>
 <a href="https://furia-chatbot-js.vercel.app/">Chatbot Furia Js</a>
+</div>
 
 
